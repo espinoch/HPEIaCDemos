@@ -21,7 +21,7 @@
             "metadata": {
                 "description": "Enter the storag account SKU"
             },
-             "defaultValue": "centralus"
+             "defaultValue": "Standard_LRS"
         }
     },
     "functions": [],
