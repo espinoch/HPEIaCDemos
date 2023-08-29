@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "Enter a name for the storage account"
             },
-            "defaultValue": "centralus"
+            "defaultValue": "hpeiac000001"
         },
         "location": {
             "type": "string",
