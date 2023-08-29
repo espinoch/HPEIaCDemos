@@ -22,13 +22,3 @@ jobs:
           region: "centralus"
           template: ./arm-templates/resourcegroup.json
           deploymentName: "HPE-IaC-RG-01"
-
-      - name: Deploy Storage Account
-        uses: Azure/arm-deploy@v1
-        with:
-          scope: resourcegroup
-          resourceGroupName: HPE-IaC-RG-01
-          subscriptionID: "db8c53d0-0187-4af7-88cd-5d950caf9a9c"
-          template: ./arm-templates/storageaccount.json
-          parameters: ./arm-templates/storageaccount.parameters.json
-          deploymentMode: incremental
