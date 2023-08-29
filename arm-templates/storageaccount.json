@@ -6,19 +6,22 @@
             "type": "string",
             "metadata": {
                 "description": "Enter a name for the storage account"
-            }
+            },
+            "defaultValue": "centralus"
         },
         "location": {
             "type": "string",
             "metadata": {
                 "description": "Enter a location to deploy the account to"
-            }
+            },
+             "defaultValue": "centralus"
         },
         "sku": {
             "type": "string",
             "metadata": {
                 "description": "Enter the storag account SKU"
-            }
+            },
+             "defaultValue": "centralus"
         }
     },
     "functions": [],
