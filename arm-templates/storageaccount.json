@@ -19,7 +19,7 @@
         "sku": {
             "type": "string",
             "metadata": {
-                "description": "Enter the storag account SKU"
+                "description": "Enter the storage account SKU"
             },
              "defaultValue": "Standard_LRS"
         }
