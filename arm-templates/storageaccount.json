@@ -6,22 +6,19 @@
             "type": "string",
             "metadata": {
                 "description": "Enter a name for the storage account"
-            },
-             "defaultValue": "hpeiac000001"         
+            }
         },
         "location": {
             "type": "string",
             "metadata": {
                 "description": "Enter a location to deploy the account to"
-            },
-            "defaultValue": "centralus"
+            }
         },
         "sku": {
             "type": "string",
             "metadata": {
                 "description": "Enter the storage account SKU"
-            },
-            "defaultValue": "Standard_LRS"
+            }
         }
     },
     "functions": [],
