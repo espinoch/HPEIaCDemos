@@ -19,7 +19,7 @@ jobs:
         with:
           scope: subscription
           subscriptionID: "db8c53d0-0187-4af7-88cd-5d950caf9a9c"
-          resourceGroupName: 'HPE-IaC-RG'
+          resourceGroupName: 'HPE-IAC-RG'
           region: "centralus"
           template: ./arm-templates/storageaccount.json
           deploymentName: "HPE-IaC-RG-02"
