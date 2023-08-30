@@ -14,11 +14,12 @@ jobs:
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-      - name: Deploy Azure Resource Group
+      - name: Deploy Azure Storage Account
         uses: Azure/arm-deploy@v1
         with:
           scope: subscription
           subscriptionID: "db8c53d0-0187-4af7-88cd-5d950caf9a9c"
+          ResourceGroup: 'HPE-IaC-RG'
           region: "centralus"
           template: ./arm-templates/storageaccount.json
           deploymentName: "HPE-IaC-RG-02"
