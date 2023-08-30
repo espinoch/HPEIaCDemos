@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "storageAccountName": {
-            "value": "hpeiac000001" 
+            "value": "hpeiac000002" 
         },
         "location": {
             "value": "centralus" 
